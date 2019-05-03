@@ -1,0 +1,12 @@
+<vbm-footer></vbm-footer>
+<vbm-header></vbm-header>
+<div>
+
+  <button (click)="fetchUsers()">Get Users</button>
+
+    <h1> {{users.length}}</h1>
+
+    <p *ngFor="let user of users"> {{user.name}}</p>
+</div>
+
+
